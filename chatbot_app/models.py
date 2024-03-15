@@ -125,7 +125,7 @@ class ChatbotTraining:
             model_name,
             load_in_4bit=True,
             torch_dtype=torch.bfloat16,
-            quantization_config=bnb_config
+            quantization_config=bnb_config if hasattr(bnb_config, "load_in_4bit") else None
         )
         return model
 
