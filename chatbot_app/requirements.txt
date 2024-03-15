@@ -2,5 +2,13 @@ transformers
 peft
 accelerate
 bitsandbytes
+safetensors
+sentencepiece
+streamlit
+chromadb
 langchain
+sentence-transformers
+sacremoses
+pypdf
+ipywidgets
 django
