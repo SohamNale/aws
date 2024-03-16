@@ -9,7 +9,7 @@ translation_model_name = "Helsinki-NLP/opus-mt-en-es"
 source_language_code = "es"
 target_language_code = "en"
 model_name = "anakin87/zephyr-7b-alpha-sharded"
-folder_path = 'Data'
+folder_path = '/content/drive/MyDrive/chatbot_data/'
 embedding_model_name = "sentence-transformers/all-mpnet-base-v2"
 
 chatbot_training = ChatbotTraining(translation_model_name, source_language_code, target_language_code, model_name, folder_path, embedding_model_name)
